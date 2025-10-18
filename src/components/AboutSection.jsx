@@ -12,20 +12,18 @@ export const AboutSection = () => {
         <div className="grid grid-cols-1 md:grid-cols-2 gap-12 items-center">
           <div className="space-y-6">
             <h3 className="text-2xl font-semibold">
-              Passionate Web Developer & Tech Creator
+              Full Stack Web Developer & Tech Enthusiast
             </h3>
 
             <p className="text-muted-foreground">
-              With over 5 years of experience in web development, I specialize
-              in creating responsive, accessible, and performant web
-              applications using modern technologies.
+              With hands-on experience in building responsive and dynamic web applications,
+               I specialize in creating seamless user experiences using React, Spring Boot, and MySQL.
             </p>
 
             <p className="text-muted-foreground">
-              I'm passionate about creating elegant solutions to complex
-              problems, and I'm constantly learning new technologies and
-              techniques to stay at the forefront of the ever-evolving web
-              landscape.
+              I’m passionate about solving real-world problems through code
+               and continuously improving my skills to stay updated with the
+                latest technologies in the ever-evolving world of web development.
             </p>
 
             <div className="flex flex-col sm:flex-row gap-4 pt-4 justify-center">
@@ -79,10 +77,11 @@ export const AboutSection = () => {
                 </div>
 
                 <div className="text-left">
-                  <h4 className="font-semibold text-lg">Project Management</h4>
+                  <h4 className="font-semibold text-lg">Internship</h4>
                   <p className="text-muted-foreground">
-                    Leading projects from conception to completion with agile
-                    methodologies.
+                    Successfully completed a 6-month Full Stack Java Developer internship at AiVariant, 
+                    working on a full-stack project using Java, Spring Boot,
+                     REST APIs, and MySQL, gaining hands-on experience in backend and frontend development.
                   </p>
                 </div>
               </div>

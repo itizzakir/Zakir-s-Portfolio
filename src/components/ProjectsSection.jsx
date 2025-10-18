@@ -3,22 +3,22 @@ import { ArrowRight, ExternalLink, Github } from "lucide-react";
 const projects = [
   {
     id: 1,
-    title: "SaaS Landing Page",
-    description: "A beautiful landing page app using React and Tailwind.",
+    title: "Food Delivery App",
+    description: "A full-stack Food Delivery Web App built with React, Spring Boot, and MySQL featuring real-time restaurant listings, orders, and user management..",
     image: "/projects/project1.png",
-    tags: ["React", "TailwindCSS", "Supabase"],
+    tags: ["React.js", "TailwindCSS", "Springboot", "RestApi","MySQL","JWT"],
     demoUrl: "#",
-    githubUrl: "#",
+    githubUrl: "https://github.com/ankulsingh221/Food-Delivery-App",
   },
   {
     id: 2,
-    title: "Orbit Analytics Dashboard",
+    title: "HR Management System",
     description:
       "Interactive analytics dashboard with data visualization and filtering capabilities.",
     image: "/projects/project2.png",
-    tags: ["TypeScript", "D3.js", "Next.js"],
+    tags: ["React.js", "TailwindCSS", "RestApi","MySQL"],
     demoUrl: "#",
-    githubUrl: "#",
+    githubUrl: "https://github.com/itizzakir/HRManagementSystem",
   },
   {
     id: 3,
@@ -63,6 +63,7 @@ export const ProjectsSection = () => {
               <div className="p-6">
                 <div className="flex flex-wrap gap-2 mb-4">
                   {project.tags.map((tag) => (
+                    // eslint-disable-next-line react/jsx-key
                     <span className="px-2 py-1 text-xs font-medium border rounded-full bg-secondary text-secondary-foreground">
                       {tag}
                     </span>
@@ -100,7 +101,7 @@ export const ProjectsSection = () => {
           <a
             className="cosmic-button w-fit flex items-center mx-auto gap-2"
             target="_blank"
-            href="https://github.com/machadop1407"
+            href="https://github.com/itizzakir"
           >
             Check My Github <ArrowRight size={16} />
           </a>
