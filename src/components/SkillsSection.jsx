@@ -21,6 +21,7 @@ const skills = [
   { name: "SpringBoot", level: 70, category: "tools" },
   { name: "IntelliJ", level: 85, category: "tools" },
   { name: "VS Code", level: 95, category: "tools" },
+  { name: "Postman", level: 90, category: "tools" }
 ];
 
 const categories = ["all", "frontend", "backend", "tools"];

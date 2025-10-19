@@ -3,7 +3,6 @@ import { Briefcase, Code, User } from "lucide-react";
 export const AboutSection = () => {
   return (
     <section id="about" className="py-24 px-4 relative">
-      {" "}
       <div className="container mx-auto max-w-5xl">
         <h2 className="text-3xl md:text-4xl font-bold mb-12 text-center">
           About <span className="text-primary"> Me</span>
@@ -17,23 +16,27 @@ export const AboutSection = () => {
 
             <p className="text-muted-foreground">
               With hands-on experience in building responsive and dynamic web applications,
-               I specialize in creating seamless user experiences using React, Spring Boot, and MySQL.
+              I specialize in creating seamless user experiences using React, Spring Boot, and MySQL.
             </p>
 
             <p className="text-muted-foreground">
               I’m passionate about solving real-world problems through code
-               and continuously improving my skills to stay updated with the
-                latest technologies in the ever-evolving world of web development.
+              and continuously improving my skills to stay updated with the
+              latest technologies in the ever-evolving world of web development.
             </p>
 
             <div className="flex flex-col sm:flex-row gap-4 pt-4 justify-center">
               <a href="#contact" className="cosmic-button">
-                {" "}
                 Get In Touch
               </a>
 
+              {/* FIX APPLIED: Changed the relative path to an absolute path 
+                from the root (public folder) to ensure the CV downloads correctly. 
+                Ensure 'MdZakirHussain.pdf' is in your project's 'public' folder.
+              */}
               <a
-                href=""
+                href="/MdZakirHussain.pdf" // Corrected path
+                download // Optional: Adds the 'download' attribute to force a file download
                 className="px-6 py-2 rounded-full border border-primary text-primary hover:bg-primary/10 transition-colors duration-300"
               >
                 Download CV
@@ -81,7 +84,7 @@ export const AboutSection = () => {
                   <p className="text-muted-foreground">
                     Successfully completed a 6-month Full Stack Java Developer internship at AiVariant, 
                     working on a full-stack project using Java, Spring Boot,
-                     REST APIs, and MySQL, gaining hands-on experience in backend and frontend development.
+                    REST APIs, and MySQL, gaining hands-on experience in backend and frontend development.
                   </p>
                 </div>
               </div>
